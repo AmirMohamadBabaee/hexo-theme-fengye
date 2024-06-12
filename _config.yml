@@ -1,14 +1,14 @@
 # Header
 nav:
-  # Home: /index
+  Home: /
   posts:
     path: ./archives
     icon: mingcute:inbox-fill
     text: Posts
-  publications:
-    path: ./publications
-    icon: mingcute:science-fill
-    text: Publications
+  # publications:
+  #   path: ./publications
+  #   icon: mingcute:science-fill
+  #   text: Publications
   # Projects: /projects
   about:
     path: ./about
@@ -31,30 +31,36 @@ nav:
   # if they are provided. It will be an empty button if none of these are 
   # provided.
 
-email: example@xxx.com
-my_location: Beijing, China
+email: amirmohamad.babaei79@gmail.com
+my_location: Tehran, Iran
 cv_path: /pdf/cv.pdf
 show_featured_posts: true
 
 # favicon
-favicon: /favicon.ico
+favicon: /images/profile.jpeg
 
 # logo
-portrait: /images/logo.svg  # Your profile image here
+portrait: /images/profile.jpeg  # Your profile image here
 show_profile_image: true
 
 # links
 links:
   Github:
-    link: https://www.github.com/chen-yingfa
+    link: https://github.com/AmirMohamadBabaee
     icon: mingcute:github-fill
-  ZhiHu:
-    link: https://www.zhihu.com/people/chen-ying-fa-34
-    icon: ri:zhihu-line
+  # ZhiHu:
+  #   link: https://www.zhihu.com/people/chen-ying-fa-34
+  #   icon: ri:zhihu-line
   Twitter:
-    link: https://www.twitter.com/DonnyChan123
+    link: https://twitter.com/amir_under_dev
     icon: mingcute:social-x-fill
   # You can add more links below using the format above.
+  LinkedIn:
+    link: https://www.linkedin.com/in/amirmohammad-babaei/
+    icon: mingcute:linkedin-fill
+  StackOverFlow:
+    link: https://stackoverflow.com/users/19718207/amirmohammad-babaei
+    icon: mingcute:code-line
 
 # analytics
 google_analytics:
