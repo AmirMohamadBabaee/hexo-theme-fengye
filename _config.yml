@@ -14,17 +14,18 @@ nav:
     path: ./about
     icon: mingcute:user-info-fill
     text: About
-  categories:
-    path: ./categories
-    icon: mingcute:classify-2-fill
-    text: Categories
-  tags:
-    path: ./tags
-    icon: mingcute:tag-fill
-    text: Tags
+  # category:
+  #   path: ./category
+  #   icon: mingcute:classify-2-fill
+  #   text: Categories
+  # tag:
+  #   path: ./tag
+  #   icon: mingcute:tag-fill
+  #   text: Tags
   home:
-    path: ./index
+    path: ./
     icon: mingcute:home-2-fill
+    text: Home
 
   # To add a new page, use hexo new page, then add another entry below.
   # Each entry MUST have a path. In addition, it will render icon and/or text
@@ -45,6 +46,9 @@ show_profile_image: true
 
 # links
 links:
+  Email:
+    link: mailto:amirmohamad.babaei79@gmail.com
+    icon: mingcute:mail-fill
   Github:
     link: https://github.com/AmirMohamadBabaee
     icon: mingcute:github-fill
@@ -86,9 +90,9 @@ mermaid:
 
 # giscus
 giscus:
-  enable:
-  repo:
-  repo_id:
-  category:
-  category_id:
-  mapping:
+  enable: true
+  repo: AmirMohamadBabaee/AmirMohamadBabaee.github.io
+  repo_id: R_kgDOMG70rQ
+  category: Blog Post Comments
+  category_id: DIC_kwDOMG70rc4CgHiU
+  mapping: pathname
