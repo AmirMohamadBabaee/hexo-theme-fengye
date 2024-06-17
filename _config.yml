@@ -14,14 +14,14 @@ nav:
     path: ./about
     icon: mingcute:user-info-fill
     text: About
-  # category:
-  #   path: ./category
-  #   icon: mingcute:classify-2-fill
-  #   text: Categories
-  # tag:
-  #   path: ./tag
-  #   icon: mingcute:tag-fill
-  #   text: Tags
+  categories:
+    path: ./category
+    icon: mingcute:classify-2-fill
+    text: Categories
+  tags:
+    path: ./tag
+    icon: mingcute:tag-fill
+    text: Tags
   home:
     path: ./
     icon: mingcute:home-2-fill
