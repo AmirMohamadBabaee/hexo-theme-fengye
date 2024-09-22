@@ -1,0 +1,12 @@
+<section class="px-6 max-w-prose mx-auto md:px-0">
+  <!-- content -->
+  <article class="post-content prose m-auto dark:prose-invert">
+    <%- page.content %>
+  </article>
+  
+<!-- js inspect -->
+<%- js('lib/clipboard.min') %>
+<%- partial('_plugins/mathjax') %>
+<%- partial('_plugins/mermaid') %>
+<%- partial('_plugins/fancybox') %>
+<%- partial('_plugins/tocbot') %>
