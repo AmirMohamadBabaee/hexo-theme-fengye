@@ -32,7 +32,7 @@ nav:
   # if they are provided. It will be an empty button if none of these are 
   # provided.
 
-email: amirmohamad.babaei79@gmail.com
+email: amir.m.babaei.academic@gmail.com
 my_location: Tehran, Iran
 cv_path: /pdf/AmirMohammadBabaei_Resume_22_sep_2024.pdf
 show_featured_posts: true
@@ -47,7 +47,7 @@ show_profile_image: true
 # links
 links:
   Email:
-    link: mailto:amirmohamad.babaei79@gmail.com
+    link: mailto:amir.m.babaei.academic@gmail.com
     icon: mingcute:mail-fill
   Github:
     link: https://github.com/AmirMohamadBabaee
