@@ -1,6 +1,10 @@
 # Header
 nav:
   Home: /
+  home:
+    path: ./
+    icon: mingcute:home-2-fill
+    text: Home
   posts:
     path: ./archives
     icon: mingcute:inbox-fill
@@ -10,10 +14,6 @@ nav:
   #   icon: mingcute:science-fill
   #   text: Publications
   # Projects: /projects
-  about:
-    path: ./about
-    icon: mingcute:user-info-fill
-    text: About
   categories:
     path: ./category
     icon: mingcute:classify-2-fill
@@ -22,10 +22,10 @@ nav:
     path: ./tag
     icon: mingcute:tag-fill
     text: Tags
-  home:
-    path: ./
-    icon: mingcute:home-2-fill
-    text: Home
+  about:
+    path: ./about
+    icon: mingcute:user-info-fill
+    text: About
 
   # To add a new page, use hexo new page, then add another entry below.
   # Each entry MUST have a path. In addition, it will render icon and/or text
@@ -36,6 +36,12 @@ email: amir.m.babaei.academic@gmail.com
 my_location: Tehran, Iran
 cv_path: /pdf/AmirMohammadBabaei_Academic_CV.pdf
 show_featured_posts: true
+
+# News Section Settings
+show_news_section: true
+news:
+  - date: "Jan 19, 2025"
+    content: "Our Paper <a href='https://www.sciencedirect.com/science/article/pii/S0262885624004694' target='_blank'><i>CLBSR: A deep curriculum learning-based blind image super resolution network using geometrical prior</i></a> has been accepted at <strong>Image and Vision Computing</strong>."
 
 # favicon
 favicon: /images/profile.jpeg
@@ -65,6 +71,9 @@ links:
   StackOverFlow:
     link: https://stackoverflow.com/users/19718207/amirmohammad-babaei
     icon: mingcute:code-line
+  GoogleScholar:
+    link: https://scholar.google.com/citations?user=8I5IRE0AAAAJ&hl=en
+    icon: mingcute:mortarboard-fill
 
 # analytics
 google_analytics:

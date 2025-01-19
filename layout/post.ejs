@@ -5,7 +5,7 @@
     <% if (toc(page.content).length !==0) { %>
   <%- partial('_partial/toc') %>
 <% } %>
-<section class="px-6 max-w-prose mx-auto md:px-0">
+<section class="px-6 max-w-[100ch] mx-auto md:px-0">
   <!-- Post header before content -->
   <header class="py-4">
     <div class="flex flex-col gap-2 pt-4 md:pt-6">
@@ -68,7 +68,7 @@
     </div>
   </header>
   <!-- content -->
-  <article class="post-content prose m-auto dark:prose-invert">
+  <article class="post-content prose m-auto dark:prose-invert max-w-[90ch]">
     <%- page.content %>
   </article>
 
