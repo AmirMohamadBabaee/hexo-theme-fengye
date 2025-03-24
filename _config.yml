@@ -40,14 +40,16 @@ show_featured_posts: true
 # News Section Settings
 show_news_section: true
 news:
+  - date: "Mar 15, 2025"
+    content: "We are pleased to announce the publication of the preprint of our survey, <a href='https://arxiv.org/abs/2503.12067' target='_blank'><i>A Comprehensive Survey on Knowledge Distillation</i></a>, on ArXiv."
   - date: "Jan 19, 2025"
     content: "Our Paper <a href='https://www.sciencedirect.com/science/article/pii/S0262885624004694' target='_blank'><i>CLBSR: A deep curriculum learning-based blind image super resolution network using geometrical prior</i></a> has been accepted at <strong>Image and Vision Computing</strong>."
 
 # favicon
-favicon: /images/profile.jpeg
+favicon: /images/profile.jpg
 
 # logo
-portrait: /images/profile.jpeg  # Your profile image here
+portrait: /images/profile.jpg  # Your profile image here
 show_profile_image: true
 
 # links
