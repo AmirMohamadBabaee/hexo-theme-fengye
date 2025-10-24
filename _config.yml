@@ -40,6 +40,8 @@ show_featured_posts: true
 # News Section Settings
 show_news_section: true
 news:
+  - date: "Sep 27, 2025"
+    content: "We’re delighted to announce that our survey, <a href='https://openreview.net/forum?id=3cbJzdR78B' target='_blank'><i>A Comprehensive Survey on Knowledge Distillation</i></a>, has been accepted and published in <i>Transactions on Machine Learning Research (TMLR)</i>; the preprint is available on <a href='https://arxiv.org/abs/2503.12067' target='_blank'>arXiv</a>."
   - date: "Mar 15, 2025"
     content: "We are pleased to announce the publication of the preprint of our survey, <a href='https://arxiv.org/abs/2503.12067' target='_blank'><i>A Comprehensive Survey on Knowledge Distillation</i></a>, on ArXiv."
   - date: "Jan 19, 2025"
